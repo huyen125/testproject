@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+#menu ul {
+  background: #e56a10;
+  list-style-type: none;
+  text-align: center;
+  z-index: 10;
+  margin-bottom: 0px;
+}
+#menu li {
+  color: #F1F1F1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 0px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #fff;
+  color: #333;
+}
+.sub-menu li {
+  display: none;
+}
+#menu li {
+  position: relative;
+}
+.sub-menu {
+  display: none;
+  position: absolute;
+}
+#menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+.single-sidebar {
+  margin-bottom: 12px;
+  margin-top: -32px;
+}
+.single-sidebar input[type="text"] {
+  width: 50%;
+}
+.single-sidebar>ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.single-sidebar li {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px 0;
+}
+
+.single-sidebar a {
+  display: block;
+}

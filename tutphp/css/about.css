@@ -1,0 +1,6 @@
+#about {
+  min-height: 500px;
+  -moz-box-shadow: 0 0 -10px #919191;
+  -webkit-box-shadow: 0 0 -10px #919191;
+  box-shadow: 0 0 10px #919191;
+}
